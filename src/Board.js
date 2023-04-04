@@ -37,7 +37,7 @@ export const Board = () => {
                                     <>
                                         <div
                                             key={ind}
-                                            className={`col-sm ${styling}`}
+                                            className={`col-sm ${cell.state}`}
                                             onClick={changeBackground}
                                         >
                                         </div>

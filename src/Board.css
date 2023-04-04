@@ -1,17 +1,31 @@
 div.row{
     height: 50px;
     width: 1002px;
-
-
 }
 
-div.col-sm{
+.inert{
     max-width: 50px;
     border: black;
     border-style: inset;
     background-image: url('../public/block.png');
     background-size: contain;
 }
+.bomb{
+    max-width: 50px;
+    background-color: red;
+    border-style: inset;
+    background-image: url('../public/bomb.png');
+    background-size: contain;
+}
+
+div.col-sm{
+    max-width: 50px;
+    border: black;
+    border-style: inset;
+    background-size: contain;
+}
+
+
 div.col-sm:hover {
     opacity:1.0;
     filter:alpha(opacity=100);
